@@ -1,27 +1,35 @@
 # UpWork Discord Bot
 
-Automated Upwork job monitoring and Discord notification bot built with Python, Discord.py, Upwork API, and web scraping to extract and deliver relevant job postings in real time.
+An automated Upwork job monitoring and Discord notification bot built with Python. It monitors Upwork job postings, extracts relevant listings, and delivers job notifications to Discord in real time.
+
+## Technologies
+
+* Python
+* Discord.py
+* Upwork API
+* Web Scraping
+* REST APIs
 
 ## Setup
 
 1. Create and activate a virtual environment.
-2. Install dependencies:
+2. Install the dependencies:
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+```bash
+pip install -r requirements.txt
+```
 
-3. Copy `.env.example` to `.env` and set:
+3. Copy `.env.example` to `.env` and configure the required environment variables:
 
-   ```bash
-   DISCORD_BOT_TOKEN=your_discord_bot_token
-   DISCORD_CHANNEL_ID=your_default_channel_id
-   ```
+```env
+DISCORD_BOT_TOKEN=your_discord_bot_token
+DISCORD_CHANNEL_ID=your_default_channel_id
+```
 
 4. Run the bot:
 
-   ```bash
-   python main.py
-   ```
+```bash
+python main.py
+```
 
-Runtime files such as logs, local databases, browser sessions, and auth data are intentionally ignored.
+Runtime files such as logs, local databases, browser sessions, and authentication data are intentionally excluded from the repository.
